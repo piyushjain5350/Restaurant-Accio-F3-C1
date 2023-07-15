@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+body{
+    background-color: rgb(17,19,21);
+    display: flex;
+}
+/* Side-bar starts */
+#sidebar{
+    width: 15vw;
+    background-color: rgb(12,14,16);
+    color: white;
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 10px 0;
+    border-bottom:1px solid rgb(109, 109, 110) ;
+
+}
+.logo-container img{
+    width: 150px;
+    height: 150px;
+}
+.links-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    border-bottom:1px solid rgb(189, 195, 206) ;
+}
+.links-container h2{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.links{
+    padding: 5px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+hr{
+    color: rgb(16,17,19);
+}
+/* Side-bar ends */
+/* header section start */
+.header-section{
+    display: flex;
+    height: 60px;
+    background-color:#191D20;
+    width: 85vw;
+    align-items: center;
+    padding: 10px 20px;
+    gap:10px;
+}
+.header-section .search-bar input{
+    border: 0;
+    outline: 0;
+    height:25px;
+    width: 90%;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+}
+.header-section .search-bar img{
+    width: 24px;
+    height: 24px;
+}
+.header-section .search-bar{
+    display: flex;
+    width: 70vw;
+    gap:5px;
+    background-color: #272A30;
+    padding: 5px;
+    border-radius:5px ;
+}
+.header-section .header-button-container{
+    display: flex;
+    gap:10px
+}
+.header-section .header-button-container input{
+    padding: 5px 12px;
+    font-size: 16px;
+    background-color:#FF2424;
+    color: white;
+    border: 1px solid black;
+}
+.header-section .avatar img{
+    width: 35px;
+    height: 35px;
+}
+/* header section end */
+/* main-section starts */
+.main-section{
+    width: 85vw;
+    padding: 20px;
+}
+.main-section .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.main-section .banner img{
+    width: 83vw;
+    height: 300px;
+}
+.main-section .place-order-section{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main-section .place-order-section input{
+    padding: 7px 15px;
+    background-color: #FF2424;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+/* card section start */
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    background-color: #191D20;
+    gap: 10px;
+    border-radius: 10px;
+}
+.cards .card-image img{
+    width: 100%;
+}
+.cards .card-details{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.items-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+}
+
+/* main section end */
